@@ -1069,9 +1069,6 @@ string pref_tracing_default
 string pref_tracing_dlg
 string pref_tracing_key
 string pref_tracing_title
-string pref_use_legacy_audio_device_default
-string pref_use_legacy_audio_device_key
-string pref_use_legacy_audio_device_title
 string pref_value_disabled
 string pref_value_enabled
 string pref_videocall_default

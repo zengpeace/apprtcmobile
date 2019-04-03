@@ -19,7 +19,7 @@ import org.webrtc.voiceengine.WebRtcAudioTrack;
  * created inside WebRTC that is controlled by static calls to the classes under the voiceengine
  * package. Please use the new JavaAudioDeviceModule instead of this class.
  */
-
+@Deprecated
 public class LegacyAudioDeviceModule implements AudioDeviceModule {
   @Override
   public long getNativeAudioDeviceModulePointer() {
