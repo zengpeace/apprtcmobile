@@ -1,0 +1,63 @@
+update the neweset official code
+
+date:2019.04.02
+M74
+
+git branch info is:
+
+root@z:/work/media/rtc/a20190402/src# git branch -a
+* (HEAD detached at origin/master)
+  master
+  remotes/branch-heads/3.50
+  remotes/branch-heads/3.51
+  remotes/branch-heads/3.52
+  remotes/branch-heads/3.53
+  remotes/branch-heads/3.54
+  remotes/branch-heads/3.55
+  remotes/branch-heads/38
+  remotes/branch-heads/38p
+  remotes/branch-heads/39
+  remotes/branch-heads/39p
+  remotes/branch-heads/40
+  remotes/branch-heads/40p
+  remotes/branch-heads/41
+  remotes/branch-heads/41p
+  remotes/branch-heads/42
+  remotes/branch-heads/42p
+  remotes/branch-heads/43
+  remotes/branch-heads/44
+  remotes/branch-heads/45
+  remotes/branch-heads/46
+  remotes/branch-heads/47
+  remotes/branch-heads/48
+  remotes/branch-heads/49
+  remotes/branch-heads/50
+  remotes/branch-heads/51
+  remotes/branch-heads/52
+  remotes/branch-heads/53
+  remotes/branch-heads/54
+  remotes/branch-heads/55
+  remotes/branch-heads/56
+  remotes/branch-heads/57
+  remotes/branch-heads/58
+  remotes/branch-heads/59
+  remotes/branch-heads/60
+  remotes/branch-heads/61
+  remotes/branch-heads/62
+  remotes/branch-heads/63
+  remotes/branch-heads/64
+  remotes/branch-heads/65
+  remotes/branch-heads/66
+  remotes/branch-heads/67
+  remotes/branch-heads/68
+  remotes/branch-heads/69
+  remotes/branch-heads/70
+  remotes/branch-heads/71
+  remotes/branch-heads/72
+  remotes/branch-heads/m73
+  remotes/branch-heads/m74
+  remotes/branch-heads/phoglund-test
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/infra/config
+  remotes/origin/lkgr
+  remotes/origin/master
