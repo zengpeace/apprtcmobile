@@ -13,214 +13,17 @@
     <list default="true" id="e4ddf01a-849e-410f-8328-600ff9370faa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/appspot/apprtc/PeerConnectionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/appspot/apprtc/PeerConnectionClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/16.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/17.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/19.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/19.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/20.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/20.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/22.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/22.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/23.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/23.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/24.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/25.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/26.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/27.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/28.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/28.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/29.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/29.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/30.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/31.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/31.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/32.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/32.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/33.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/33.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/34.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/35.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/8.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CallActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CallActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/PeerConnectionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/PeerConnectionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/libwebrtc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/libwebrtc/libwebrtc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/rtc_base/java/src/org/webrtc/ContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/rtc_base/java/src/org/webrtc/Loggable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/rtc_base/java/src/org/webrtc/Logging.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/rtc_base/java/src/org/webrtc/OWNERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/rtc_base/java/src/org/webrtc/Size.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/rtc_base/java/src/org/webrtc/ThreadUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/AudioDecoderFactoryFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/AudioEncoderFactoryFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/AudioProcessingFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/AudioSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/AudioTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/BuiltinAudioDecoderFactoryFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/BuiltinAudioEncoderFactoryFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/CallSessionFileRotatingLogSink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/Camera1Capturer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/Camera1Enumerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/Camera2Capturer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/Camera2Enumerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/CameraEnumerationAndroid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/CameraEnumerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/CameraVideoCapturer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/CapturerObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/CryptoOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/DataChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/DefaultVideoDecoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/DefaultVideoEncoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/DtmfSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/EglBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/EglRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/EncodedImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/FecControllerFactoryFactoryInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/FileVideoCapturer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/FrameDecryptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/FrameEncryptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/GlRectDrawer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/GlShader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/GlTextureFrameBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/GlUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/HardwareVideoDecoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/HardwareVideoEncoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/IceCandidate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/JavaI420Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/LibvpxVp8Decoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/LibvpxVp8Encoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/LibvpxVp9Decoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/LibvpxVp9Encoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaCodecVideoDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaCodecVideoEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaConstraints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaStreamTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/MediaTransportFactoryFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/Metrics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/NativeLibraryLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/NativePeerConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/NetworkMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/NetworkMonitorAutoDetect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/OWNERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/PeerConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/PeerConnectionDependencies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/PeerConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/PlatformSoftwareVideoDecoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/Predicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RTCStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RTCStatsCollectorCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RTCStatsReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RefCounted.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RendererCommon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RtcCertificatePem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RtpParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RtpReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RtpSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/RtpTransceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SSLCertificateVerifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/ScreenCapturerAndroid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SdpObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SessionDescription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SoftwareVideoDecoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SoftwareVideoEncoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/StatsObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/StatsReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SurfaceEglRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SurfaceTextureHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/SurfaceViewRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/TextureBufferImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/TimestampAligner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/TurnCustomizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoCapturer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoCodecInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoCodecStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoDecoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoDecoderFallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoEncoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoEncoderFallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoFileRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoFrameDrawer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoSink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/YuvConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/YuvHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/audio/AudioDeviceModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/audio/JavaAudioDeviceModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/audio/LegacyAudioDeviceModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/AndroidVideoDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/BaseBitrateAdjuster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/BitrateAdjuster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/CalledByNative.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/CalledByNativeUnchecked.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/Camera1Session.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/Camera2Session.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/CameraCapturer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/CameraSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/DynamicBitrateAdjuster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/EglBase10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/EglBase14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/Empty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/FramerateBitrateAdjuster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/GlGenericDrawer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/H264Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/HardwareVideoEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/Histogram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/JNILogging.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/JniCommon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/JniHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/MediaCodecUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/MediaCodecVideoDecoderFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/MediaCodecWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/MediaCodecWrapperFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/MediaCodecWrapperFactoryImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/NV12Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/NV21Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/NativeCapturerObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/NativeLibrary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/RefCountDelegate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/VideoCodecType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/VideoDecoderWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/VideoEncoderWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/WebRtcClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/WrappedNativeI420Buffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/WrappedNativeVideoDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/WrappedNativeVideoEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/audio/VolumeLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/audio/WebRtcAudioEffects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/audio/WebRtcAudioManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/audio/WebRtcAudioRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/audio/WebRtcAudioTrack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/src/java/org/webrtc/audio/WebRtcAudioUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libwebrtc/libs/arm64-v8a/libjingle_peerconnection_so.so" beforeDir="false" afterPath="$PROJECT_DIR$/libwebrtc/libs/arm64-v8a/libjingle_peerconnection_so.so" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -277,28 +80,29 @@
     <session id="473046274">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="63" />
+          <entry key="java" value="65" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="65" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -321,29 +125,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CallActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17325">
-              <caret line="762" column="45" selection-start-line="762" selection-start-column="45" selection-end-line="762" selection-end-column="45" />
+            <state relative-caret-position="110">
+              <caret line="237" column="71" lean-forward="true" selection-start-line="237" selection-start-column="71" selection-end-line="237" selection-end-column="71" />
+              <folding>
+                <element signature="e#8948#8980#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CpuMonitor.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/ConnectActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3325">
-              <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/AppRTCClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="416">
+              <caret line="527" column="17" selection-start-line="527" selection-start-column="17" selection-end-line="527" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -366,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/PeerConnectionClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="837" column="3" lean-forward="true" selection-start-line="837" selection-start-column="3" selection-end-line="837" selection-end-column="3" />
+            <state relative-caret-position="231">
+              <caret line="1092" column="62" selection-start-line="1092" selection-start-column="62" selection-end-line="1092" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -437,7 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -458,17 +256,13 @@
             </path>
             <path>
               <item name="apprtcmobile" type="1abcf292:AndroidViewProjectNode" />
-              <item name="libwebrtc" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="apprtcmobile" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -579,11 +373,11 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" weight="0.30931264" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840257" visible="true" weight="0.30931264" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946752" weight="0.3292683" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50106496" side_tool="true" weight="0.5609756" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50159746" side_tool="true" weight="0.30931264" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4968051" visible="true" weight="0.25831485" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49733758" weight="0.25831485" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3292683" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -601,9 +395,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CallActivity.java</url>
-          <line>759</line>
+          <line>237</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -675,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/VideoFrame.java" />
     <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/sdk/android/src/java/org/webrtc/CalledByNative.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -725,12 +513,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../AppData/Local/Android/Sdk/sources/android-28/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -743,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="2258" selection-start-line="2258" selection-end-line="2258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../AppData/Local/Android/Sdk/sources/android-28/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="4543" column="21" lean-forward="true" selection-start-line="4543" selection-start-column="21" selection-end-line="4543" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -785,29 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/ConnectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="527" column="24" selection-start-line="527" selection-start-column="24" selection-end-line="527" selection-end-column="24" />
-          <folding>
-            <element signature="e#2499#2538#0" expanded="true" />
-            <element signature="e#2557#2589#0" expanded="true" />
-            <element signature="e#2621#2665#0" expanded="true" />
-            <element signature="e#2698#2747#0" expanded="true" />
-            <element signature="e#2779#2825#0" expanded="true" />
-            <element signature="e#2858#2909#0" expanded="true" />
-            <element signature="e#2938#2982#0" expanded="true" />
-            <element signature="e#3002#3035#0" expanded="true" />
-            <element signature="e#3059#3097#0" expanded="true" />
-            <element signature="e#9688#9723#0" expanded="true" />
-            <element signature="e#11671#11696#0" expanded="true" />
-            <element signature="e#11893#11928#0" expanded="true" />
-            <element signature="e#16033#16086#0" expanded="true" />
-            <element signature="e#17877#17905#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,31 +608,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/IceCandidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CallActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17325">
-          <caret line="762" column="45" selection-start-line="762" selection-start-column="45" selection-end-line="762" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/IceCandidate.java" />
+    <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/PeerConnectionFactory.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CpuMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3325">
           <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/AppRTCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -892,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/modules/audio_device/android/sdk/android/api/org/webrtc/PeerConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7800">
-          <caret line="338" column="69" lean-forward="true" selection-start-line="338" selection-start-column="69" selection-end-line="338" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libwebrtc/src/main/java/sdk/android/api/org/webrtc/PeerConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17300">
@@ -908,8 +640,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/PeerConnectionClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="837" column="3" lean-forward="true" selection-start-line="837" selection-start-column="3" selection-end-line="837" selection-end-column="3" />
+        <state relative-caret-position="231">
+          <caret line="1092" column="62" selection-start-line="1092" selection-start-column="62" selection-end-line="1092" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../AppData/Local/Android/Sdk/sources/android-28/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="4543" column="25" lean-forward="true" selection-start-line="4543" selection-start-column="25" selection-end-line="4543" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/AppRTCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/ConnectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="527" column="17" selection-start-line="527" selection-start-column="17" selection-end-line="527" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/appspot/apprtc/CallActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="237" column="71" lean-forward="true" selection-start-line="237" selection-start-column="71" selection-end-line="237" selection-end-column="71" />
+          <folding>
+            <element signature="e#8948#8980#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
