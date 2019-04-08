@@ -66,11 +66,6 @@
             android:screenOrientation="fullUser"
             android:theme="@style/CallActivityTheme" >
         </activity>
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="org.appspot.apprtc.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

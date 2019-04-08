@@ -572,7 +572,7 @@ public class CallActivity extends Activity implements AppRTCClient.SignalingEven
       Log.e(TAG, "AppRTC client is not allocated for a call.");
       return;
     }
-    callStartedTimeMs = System.currentTimeMillis();
+    callStartedTimeMs = System.currentTimeMillis();;
 
     // Start room connection.
     logAndToast(getString(R.string.connecting_to, roomConnectionParameters.roomUrl));
