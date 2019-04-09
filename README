@@ -70,3 +70,9 @@ root@z:/work/media/rtc/a20190402/src# git branch -a
   remotes/origin/infra/config
   remotes/origin/lkgr
   remotes/origin/master
+  
+  
+  ps：
+  in order to doing test, disabling the audio, if you want to enable it,
+  PeerConnectionClient.java
+  enableAudio = true
