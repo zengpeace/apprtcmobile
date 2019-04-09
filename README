@@ -3,6 +3,15 @@ update the neweset official code
 date:2019.04.02
 M74
 
+
+gn configuration is：
+
+gn gen out/Debug64 --args='target_os="android" target_cpu="arm64" rtc_use_h264=true ffmpeg_branding="Chrome" proprietary_codecs=true'
+gn gen out/Debug --args='target_os="android" target_cpu="arm" rtc_use_h264=true ffmpeg_branding="Chrome" proprietary_codecs=true'
+gn gen out/Debugx64 --args='target_os="android" target_cpu="x64" rtc_use_h264=true ffmpeg_branding="Chrome" proprietary_codecs=true'
+gn gen out/Debugx86 --args='target_os="android" target_cpu="x86" rtc_use_h264=true ffmpeg_branding="Chrome" proprietary_codecs=true'
+
+
 git branch info is:
 
 root@z:/work/media/rtc/a20190402/src# git branch -a
