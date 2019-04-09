@@ -235,12 +235,16 @@ public class CallActivity extends Activity implements AppRTCClient.SignalingEven
     // Create video renderers.
     pipRenderer.init(eglBase.getEglBaseContext(), null);
     pipRenderer.setScalingType(ScalingType.SCALE_ASPECT_FIT);
-    String saveRemoteVideoToFile = intent.getStringExtra(EXTRA_SAVE_REMOTE_VIDEO_TO_FILE);
+    //String saveRemoteVideoToFile = intent.getStringExtra(EXTRA_SAVE_REMOTE_VIDEO_TO_FILE);
+    String saveRemoteVideoToFile = "/mnt/sdcard/test.yuv";
 
     // When saveRemoteVideoToFile is set we save the video from the remote to a file.
     if (saveRemoteVideoToFile != null) {
-      int videoOutWidth = intent.getIntExtra(EXTRA_SAVE_REMOTE_VIDEO_TO_FILE_WIDTH, 0);
-      int videoOutHeight = intent.getIntExtra(EXTRA_SAVE_REMOTE_VIDEO_TO_FILE_HEIGHT, 0);
+      //int videoOutWidth = intent.getIntExtra(EXTRA_SAVE_REMOTE_VIDEO_TO_FILE_WIDTH, 0);
+      //int videoOutHeight = intent.getIntExtra(EXTRA_SAVE_REMOTE_VIDEO_TO_FILE_HEIGHT, 0);
+      int videoOutWidth = 1280;
+      int videoOutHeight = 720;
+
       try {
         videoFileRenderer = new VideoFileRenderer(
             saveRemoteVideoToFile, videoOutWidth, videoOutHeight, eglBase.getEglBaseContext());
