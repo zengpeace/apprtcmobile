@@ -47,10 +47,10 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="appr.tc"
+                    android:host="www.zeng060.top:8081"
                     android:scheme="https" />
                 <data
-                    android:host="appr.tc"
+                    android:host="www.zeng060.top:8080"
                     android:scheme="http" />
             </intent-filter>
         </activity>
