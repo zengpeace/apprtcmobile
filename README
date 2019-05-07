@@ -17,7 +17,6 @@ gn gen out/Debugx86 --args='target_os="android" target_cpu="x86" rtc_use_h264=tr
 
   
 ps：
-暂时只编译了arm64的so，其它三个还没弄。。。
 // in order to doing test, disabling the audio, if you want to enable it,
 //  PeerConnectionClient.java
 //  enableAudio = true
