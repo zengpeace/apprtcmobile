@@ -4,7 +4,7 @@
             "outputFile": "D:\\Users\\udi\\AndroidStudioProjects\\apprtcmobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\udi\\.gradle\\caches\\transforms-2\\files-2.1\\fed37c7d866f46dcfd10eb4ecafaddf9\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\udi\\.gradle\\caches\\transforms-2\\files-2.1\\1786af64e5512c3bb66d5a51a39af671\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\udi\\.gradle\\caches\\transforms-2\\files-2.1\\45c53d053d8a99ec7c812f41604ef08a\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\udi\\.gradle\\caches\\transforms-2\\files-2.1\\0df850fe3122f62af09b7bc3d72ec49e\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
