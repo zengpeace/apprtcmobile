@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\udi\\AndroidStudioProjects\\apprtcmobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "/root/AndroidStudioProjects/apprtcmobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\udi\\.gradle\\caches\\transforms-2\\files-2.1\\45c53d053d8a99ec7c812f41604ef08a\\res\\values-v17\\values-v17.xml",
+                    "source": "/root/AndroidStudioProjects/apprtcmobile/app/src/main/res/values-v17/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endLines": "6",
+                        "endColumns": "10",
+                        "endOffsets": "284"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "10",
+                        "endOffsets": "286"
+                    }
+                },
+                {
+                    "source": "/root/.gradle/caches/transforms-2/files-2.1/f95486e786a1daa735ded34f545f10db/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -20,25 +39,6 @@
                         "endLines": "9,13,16,19,22,26,29,33,37,41,44,47,50,54,57,61,65",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "459,687,845,995,1167,1392,1562,1790,2014,2256,2427,2601,2770,3043,3243,3447,3776"
-                    }
-                },
-                {
-                    "source": "D:\\Users\\udi\\AndroidStudioProjects\\apprtcmobile\\app\\src\\main\\res\\values-v17\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "2",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "10",
-                        "endOffsets": "290"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "10",
-                        "endOffsets": "286"
                     }
                 }
             ]
