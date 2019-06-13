@@ -1,4 +1,4 @@
-#Thu Jun 13 17:36:14 CST 2019
+#Thu Jun 13 17:43:49 CST 2019
 base.0=/root/AndroidStudioProjects/apprtcmobile/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
