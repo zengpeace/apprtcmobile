@@ -1,9 +1,11 @@
 apply plugin: 'com.android.library'
 
+def useDefaultJavaCode = "true" == rootProject.findProperty("use_default_java_code")
+def compileNativeCode = "true" == rootProject.findProperty("compile_native_code")
+def webrtcRepo = rootProject.property("webrtc_repo")
+
 android {
     compileSdkVersion 28
-
-
 
     defaultConfig {
         minSdkVersion 19
@@ -23,13 +25,29 @@ android {
     }
 
     sourceSets.main {
-        jniLibs.srcDir 'libs'
-        java.srcDirs = [
-                "src/main/java/sdk/android/api",
-                "src/main/java/sdk/android/src/java",
-                "src/main/java/rtc_base/java/src",
-                "src/main/java/modules/audio_device/android/java/src",
-        ]
+        if(useDefaultJavaCode)
+        {
+            java.srcDirs = [
+                    "src/main/java/sdk/android/api",
+                    "src/main/java/sdk/android/src/java",
+                    "src/main/java/rtc_base/java/src",
+                    "src/main/java/modules/audio_device/android/java/src",
+            ]
+        }
+        else
+        {
+            java.srcDirs = [
+                    "${webrtcRepo}/sdk/android/api",
+                    "${webrtcRepo}/sdk/android/src/java",
+                    "${webrtcRepo}/rtc_base/java/src",
+                    "${webrtcRepo}/modules/audio_device/android/java/src",
+            ]
+        }
+
+
+        if (!compileNativeCode) {
+            jniLibs.srcDir 'libs'
+        }
     }
 
     compileOptions {
@@ -42,6 +60,10 @@ android {
         // Or, if you prefer, you can continue to check for errors in release builds,
         // but continue the build even when errors are found:
         abortOnError false
+    }
+
+    if (compileNativeCode) {
+        apply from: 'webrtc.gradle'
     }
 }
 

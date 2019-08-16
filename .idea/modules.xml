@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/apprtcmobile.iml" filepath="$PROJECT_DIR$/apprtcmobile.iml" />
       <module fileurl="file://$PROJECT_DIR$/libwebrtc/libwebrtc.iml" filepath="$PROJECT_DIR$/libwebrtc/libwebrtc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self.iml" filepath="$PROJECT_DIR$/self.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webrtcNativeDebug.iml" filepath="$PROJECT_DIR$/webrtcNativeDebug.iml" />
     </modules>
   </component>
 </project>
