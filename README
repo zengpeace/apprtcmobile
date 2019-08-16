@@ -1,5 +1,6 @@
 M75
 date:2019.04.27
+add h264 support
 
 gn configuration is：
 
@@ -16,4 +17,3 @@ ps：
 //  PeerConnectionClient.java
 //  enableAudio = true
 
-//for debug convenient, not build arm32, you can reopen it in gradle.build files
