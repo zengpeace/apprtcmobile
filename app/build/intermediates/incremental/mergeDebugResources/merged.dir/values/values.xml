@@ -435,8 +435,10 @@
     <string name="invalid_url_text">The URL or room name you entered resulted in an invalid URL: %1$s
     </string>
     <string name="invalid_url_title">Invalid URL</string>
+    <string name="missing_permissions_try_again">The application is missing permissions. It might not work correctly. Do you want to try again?</string>
     <string name="missing_url">FATAL ERROR: Missing URL to connect to.</string>
     <string name="muted">Muted</string>
+    <string name="no">No</string>
     <string name="no_favorites">No favorites</string>
     <string name="ok">OK</string>
     <string name="pref_aecdump_default">false</string>
@@ -598,6 +600,7 @@
     <string name="switch_camera">Switch front/back camera</string>
     <string name="toggle_debug">Toggle debug view</string>
     <string name="toggle_mic">Toggle microphone on/off</string>
+    <string name="yes">Yes</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

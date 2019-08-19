@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="16"
         android:targetSdkVersion="28" />
 
     <uses-feature android:name="android.hardware.camera" />
@@ -22,7 +22,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" />
     <!-- This is a test application that should always be debuggable. -->
     <application
         android:allowBackup="false"
@@ -30,10 +29,12 @@
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="false" >
+        android:supportsRtl="false"
+        android:testOnly="true" >
         <activity
             android:name="org.appspot.apprtc.ConnectActivity"
             android:label="@string/app_name"
+            android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,7 +57,8 @@
         </activity>
         <activity
             android:name="org.appspot.apprtc.SettingsActivity"
-            android:label="@string/settings_name" >
+            android:label="@string/settings_name"
+            android:theme="@style/AppTheme" >
         </activity>
         <activity
             android:name="org.appspot.apprtc.CallActivity"

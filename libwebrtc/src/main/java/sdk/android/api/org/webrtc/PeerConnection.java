@@ -14,7 +14,10 @@ import android.support.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import org.webrtc.CandidatePairChangeEvent;
 import org.webrtc.DataChannel;
 import org.webrtc.MediaStreamTrack;
 import org.webrtc.RtpTransceiver;
@@ -98,6 +101,10 @@ public class PeerConnection {
     /** Triggered when the IceConnectionState changes. */
     @CalledByNative("Observer") void onIceConnectionChange(IceConnectionState newState);
 
+    /* Triggered when the standard-compliant state transition of IceConnectionState happens. */
+    @CalledByNative("Observer")
+    default void onStandardizedIceConnectionChange(IceConnectionState newState) {}
+
     /** Triggered when the PeerConnectionState changes. */
     @CalledByNative("Observer")
     default void onConnectionChange(PeerConnectionState newState) {}
@@ -113,6 +120,10 @@ public class PeerConnection {
 
     /** Triggered when some ICE candidates have been removed. */
     @CalledByNative("Observer") void onIceCandidatesRemoved(IceCandidate[] candidates);
+
+    /** Triggered when the ICE candidate pair is changed. */
+    @CalledByNative("Observer")
+    default void onSelectedCandidatePairChanged(CandidatePairChangeEvent event) {}
 
     /** Triggered when media is received on a new stream from remote peer. */
     @CalledByNative("Observer") void onAddStream(MediaStream stream);
@@ -365,12 +376,29 @@ public class PeerConnection {
 
   // Keep in sync with webrtc/rtc_base/network_constants.h.
   public enum AdapterType {
-    UNKNOWN,
-    ETHERNET,
-    WIFI,
-    CELLULAR,
-    VPN,
-    LOOPBACK,
+    UNKNOWN(0),
+    ETHERNET(1 << 0),
+    WIFI(1 << 1),
+    CELLULAR(1 << 2),
+    VPN(1 << 3),
+    LOOPBACK(1 << 4),
+    ADAPTER_TYPE_ANY(1 << 5);
+
+    public final Integer bitMask;
+    private AdapterType(Integer bitMask) {
+      this.bitMask = bitMask;
+    }
+    private static final Map<Integer, AdapterType> BY_BITMASK = new HashMap<>();
+    static {
+      for (AdapterType t : values()) {
+        BY_BITMASK.put(t.bitMask, t);
+      }
+    }
+
+    @CalledByNative("AdapterType")
+    static AdapterType fromNativeIndex(int nativeIndex) {
+      return BY_BITMASK.get(nativeIndex);
+    }
   }
 
   /** Java version of rtc::KeyType */
@@ -446,6 +474,7 @@ public class PeerConnection {
     public int iceCandidatePoolSize;
     public boolean pruneTurnPorts;
     public boolean presumeWritableWhenFullyRelayed;
+    public boolean surfaceIceCandidatesOnIceTransportTypeChanged;
     // The following fields define intervals in milliseconds at which ICE
     // connectivity checks are sent.
     //
@@ -548,6 +577,7 @@ public class PeerConnection {
       iceCandidatePoolSize = 0;
       pruneTurnPorts = false;
       presumeWritableWhenFullyRelayed = false;
+      surfaceIceCandidatesOnIceTransportTypeChanged = false;
       iceCheckIntervalStrongConnectivityMs = null;
       iceCheckIntervalWeakConnectivityMs = null;
       iceCheckMinInterval = null;
@@ -652,6 +682,11 @@ public class PeerConnection {
     @CalledByNative("RTCConfiguration")
     boolean getPresumeWritableWhenFullyRelayed() {
       return presumeWritableWhenFullyRelayed;
+    }
+
+    @CalledByNative("RTCConfiguration")
+    boolean getSurfaceIceCandidatesOnIceTransportTypeChanged() {
+      return surfaceIceCandidatesOnIceTransportTypeChanged;
     }
 
     @Nullable

@@ -97,14 +97,8 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:19:5-79
 	android:name
 		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:19:22-76
-uses-permission#android.permission.CAPTURE_VIDEO_OUTPUT
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:20:5-21:79
-	tools:ignore
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:20:22-57
-	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:21:22-76
 application
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:24:5-58:19
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:22:5-58:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-2/files-2.1/ac88d5b94bd89c1a3eb19c50efd9034d/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /root/.gradle/caches/transforms-2/files-2.1/ac88d5b94bd89c1a3eb19c50efd9034d/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-2/files-2.1/7991cf1d3ae21dd897635890cd2f0368/AndroidManifest.xml:22:5-94
@@ -114,61 +108,65 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /root/.gradle/cache
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-2/files-2.1/7991cf1d3ae21dd897635890cd2f0368/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:28:18-45
-	android:label
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:24:18-50
-	android:debuggable
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:27:18-43
-	tools:ignore
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:29:18-51
-	android:icon
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:25:18-54
-	android:allowBackup
 		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:26:18-45
+	android:label
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:22:18-50
+	android:debuggable
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:25:18-43
+	tools:ignore
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:27:18-51
+	android:icon
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:23:18-54
+	android:allowBackup
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:24:18-45
 activity#org.appspot.apprtc.ConnectActivity
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:31:9-46:20
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:29:9-45:20
 	android:label
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:32:19-51
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:30:19-51
 	android:windowSoftInputMode
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:33:19-58
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:31:19-58
+	android:theme
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:32:19-50
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:31:19-49
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:29:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:34:13-37:29
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:33:13-36:29
 action#android.intent.action.MAIN
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:35:17-68
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:34:17-68
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:36:17-76
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:36:27-74
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:35:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.zeng060.top:8080+data:host:www.zeng060.top:8081+data:scheme:http+data:scheme:https
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:39:13-45:29
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:38:13-44:29
 action#android.intent.action.VIEW
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:40:17-68
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:39:17-68
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:40:25-66
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:39:25-66
 category#android.intent.category.DEFAULT
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:41:17-75
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:40:17-75
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:41:27-73
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:40:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:42:17-77
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:42:27-75
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:41:27-75
 data
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:43:17-83
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:42:17-83
 	android:host
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:43:46-81
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:42:46-81
 	android:scheme
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:43:23-45
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:42:23-45
 activity#org.appspot.apprtc.SettingsActivity
-ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:48:9-50:20
+ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:47:9-50:20
 	android:label
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:49:19-56
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:48:19-56
+	android:theme
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:49:19-50
 	android:name
-		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:48:19-50
+		ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:47:19-50
 activity#org.appspot.apprtc.CallActivity
 ADDED from /root/AndroidStudioProjects/apprtcmobile/app/src/main/AndroidManifest.xml:52:9-57:20
 	android:screenOrientation

@@ -928,8 +928,10 @@ string favorites
 string format_description
 string invalid_url_text
 string invalid_url_title
+string missing_permissions_try_again
 string missing_url
 string muted
+string no
 string no_favorites
 string ok
 string pref_aecdump_default
@@ -1088,12 +1090,13 @@ string status_bar_notification_info_overflow
 string switch_camera
 string toggle_debug
 string toggle_mic
+string yes
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
-style AppRTCMobileActivityTheme
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

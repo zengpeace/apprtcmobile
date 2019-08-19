@@ -29,5 +29,5 @@ task clean(type: Delete) {
 
 ext {
     releaseVersionCode = 3
-    releaseVersionName = '3.0.20190816'
+    releaseVersionName = '3.0.20190817'
 }
