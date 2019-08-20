@@ -38,6 +38,7 @@ android {
                 abiFilters 'arm64-v8a'
             } else {
                 abiFilters 'arm64-v8a', 'armeabi-v7a'
+                //abiFilters 'arm64-v8a'
             }
 
         }

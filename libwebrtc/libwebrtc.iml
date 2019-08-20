@@ -23,12 +23,24 @@
         <option name="PROJECT_TYPE" value="1" />
       </configuration>
     </facet>
+    <facet type="native-android-gradle" name="Native-Android-Gradle">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug-arm64-v8a" />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/CMakeFiles/crypto_test_data.dir" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/crypto/chacha" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/crypto/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/crypto/third_party/sike/asm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl/crypto" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
@@ -47,6 +59,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
@@ -54,6 +67,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
@@ -61,6 +75,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
@@ -71,6 +86,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/sdk/android/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/rtc_base/java/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java/modules/audio_device/android/java/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
@@ -78,6 +94,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
@@ -85,8 +102,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.externalNativeBuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
       <excludeFolder url="file://$MODULE_DIR$/build/generated/source/r" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/aapt_friendly_merged_manifests" />
@@ -94,29 +113,881 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotations_typedef_file" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotations_zip" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check_manifest_result" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compile_library_classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/intermediate-jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_and_local_jars_jni" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_assets" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_java_res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/library_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_jni_libs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/packaged_res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/public_res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/runtime_library_classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shader_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+    </content>
+    <content url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl">
+      <sourceFolder url="file://$MODULE_DIR$/.externalNativeBuild/cmake/debug/arm64-v8a/third_party/boringssl/boringssl" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs/L16">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs/L16" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs/g711">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs/g711" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs/g722">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs/g722" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs/ilbc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs/ilbc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs/isac">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs/isac" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/audio_codecs/opus">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/audio_codecs/opus" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/call">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/call" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/crypto">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/crypto" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/rtc_event_log">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/rtc_event_log" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/task_queue">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/task_queue" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/transport">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/transport" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/transport/media">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/transport/media" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/units">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/units" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/video">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/video" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/api/video_codecs">
+      <sourceFolder url="file:///work/av/m77_20190817/src/api/video_codecs" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/audio">
+      <sourceFolder url="file:///work/av/m77_20190817/src/audio" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/audio/utility">
+      <sourceFolder url="file:///work/av/m77_20190817/src/audio/utility" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/base/third_party/libevent">
+      <sourceFolder url="file:///work/av/m77_20190817/src/base/third_party/libevent" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/call">
+      <sourceFolder url="file:///work/av/m77_20190817/src/call" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_audio">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_audio" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_audio/resampler">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_audio/resampler" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_audio/signal_processing">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_audio/signal_processing" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_audio/third_party/fft4g">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_audio/third_party/fft4g" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_audio/third_party/spl_sqrt_floor">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_audio/third_party/spl_sqrt_floor" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_audio/vad">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_audio/vad" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_video">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_video" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_video/generic_frame_descriptor">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_video/generic_frame_descriptor" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_video/h264">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_video/h264" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/common_video/libyuv">
+      <sourceFolder url="file:///work/av/m77_20190817/src/common_video/libyuv" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/logging/rtc_event_log">
+      <sourceFolder url="file:///work/av/m77_20190817/src/logging/rtc_event_log" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/logging/rtc_event_log/encoder">
+      <sourceFolder url="file:///work/av/m77_20190817/src/logging/rtc_event_log/encoder" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/logging/rtc_event_log/events">
+      <sourceFolder url="file:///work/av/m77_20190817/src/logging/rtc_event_log/events" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/media/base">
+      <sourceFolder url="file:///work/av/m77_20190817/src/media/base" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/media/engine">
+      <sourceFolder url="file:///work/av/m77_20190817/src/media/engine" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/media/sctp">
+      <sourceFolder url="file:///work/av/m77_20190817/src/media/sctp" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/acm2">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/acm2" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/audio_network_adaptor">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/audio_network_adaptor" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/cng">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/cng" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/g711">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/g711" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/g722">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/g722" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/ilbc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/ilbc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac/fix/source">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac/fix/source" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac/main/source">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac/main/source" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac/main/util">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/isac/main/util" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/opus">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/opus" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/pcm16b">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/pcm16b" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/red">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/codecs/red" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_coding/neteq">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_coding/neteq" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_device">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_device" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_device/android">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_device/android" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_device/dummy">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_device/dummy" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_device/include">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_device/include" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_mixer">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_mixer" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/aec">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/aec" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/aec3">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/aec3" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/aec_dump">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/aec_dump" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/aecm">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/aecm" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/agc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/agc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/agc/legacy">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/agc/legacy" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/agc2">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/agc2" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/agc2/rnn_vad">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/agc2/rnn_vad" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/audio_generator">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/audio_generator" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/echo_detector">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/echo_detector" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/include">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/include" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/logging">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/logging" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/ns">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/ns" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/transient">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/transient" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/utility">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/utility" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/audio_processing/vad">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/audio_processing/vad" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/bitrate_controller">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/bitrate_controller" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/congestion_controller">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/congestion_controller" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/congestion_controller/bbr">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/congestion_controller/bbr" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/congestion_controller/goog_cc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/congestion_controller/goog_cc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/congestion_controller/pcc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/congestion_controller/pcc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/congestion_controller/rtp">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/congestion_controller/rtp" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/include">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/include" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/pacing">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/pacing" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/remote_bitrate_estimator">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/remote_bitrate_estimator" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/rtp_rtcp/include">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/rtp_rtcp/include" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/rtp_rtcp/source">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/rtp_rtcp/source" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/rtp_rtcp/source/rtcp_packet">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/rtp_rtcp/source/rtcp_packet" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/third_party/fft">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/third_party/fft" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/third_party/g711">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/third_party/g711" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/third_party/g722">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/third_party/g722" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/third_party/portaudio">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/third_party/portaudio" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/utility/source">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/utility/source" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_capture">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_capture" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/h264">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/h264" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/multiplex">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/multiplex" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/vp8">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/vp8" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/vp9">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding/codecs/vp9" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding/include">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding/include" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_coding/utility">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_coding/utility" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_processing">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_processing" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/modules/video_processing/util">
+      <sourceFolder url="file:///work/av/m77_20190817/src/modules/video_processing/util" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/out/as/gen/logging/rtc_event_log">
+      <sourceFolder url="file:///work/av/m77_20190817/src/out/as/gen/logging/rtc_event_log" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/out/as/gen/modules/audio_coding/audio_network_adaptor">
+      <sourceFolder url="file:///work/av/m77_20190817/src/out/as/gen/modules/audio_coding/audio_network_adaptor" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/out/as/gen/modules/audio_processing">
+      <sourceFolder url="file:///work/av/m77_20190817/src/out/as/gen/modules/audio_processing" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/p2p/base">
+      <sourceFolder url="file:///work/av/m77_20190817/src/p2p/base" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/p2p/client">
+      <sourceFolder url="file:///work/av/m77_20190817/src/p2p/client" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/p2p/stunprober">
+      <sourceFolder url="file:///work/av/m77_20190817/src/p2p/stunprober" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/pc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/pc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/experiments">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/experiments" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/memory">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/memory" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/network">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/network" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/numerics">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/numerics" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/strings">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/strings" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/synchronization">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/synchronization" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/system">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/system" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/task_utils">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/task_utils" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/third_party/base64">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/third_party/base64" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/third_party/sigslot">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/third_party/sigslot" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/rtc_base/time">
+      <sourceFolder url="file:///work/av/m77_20190817/src/rtc_base/time" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/audio_device_module">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/audio_device_module" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/base">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/base" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/codecs">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/codecs" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/jni">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/jni" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/peerconnection">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/peerconnection" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/stacktrace">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/stacktrace" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/native_api/video">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/native_api/video" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/src/jni">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/src/jni" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/src/jni/audio_device">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/src/jni/audio_device" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/src/jni/logging">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/src/jni/logging" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/sdk/android/src/jni/pc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/sdk/android/src/jni/pc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/stats">
+      <sourceFolder url="file:///work/av/m77_20190817/src/stats" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/system_wrappers/source">
+      <sourceFolder url="file:///work/av/m77_20190817/src/system_wrappers/source" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/base">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/base" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/base/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/base/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/container/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/container/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/debugging">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/debugging" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/debugging/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/debugging/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/flags">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/flags" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/flags/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/flags/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/hash/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/hash/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/numeric">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/numeric" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings/internal/str_format">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings/internal/str_format" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/synchronization">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/synchronization" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/synchronization/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/synchronization/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/time">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/time" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/time/internal">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/time/internal" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/time/internal/cctz/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/time/internal/cctz/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/types">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/abseil-cpp/absl/types" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/asn1">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/asn1" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/base64">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/base64" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/bio">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/bio" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/bn_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/bn_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/buf">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/buf" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/bytestring">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/bytestring" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/chacha">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/chacha" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/cipher_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/cipher_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/cmac">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/cmac" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/conf">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/conf" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/curve25519">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/curve25519" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/dh">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/dh" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/digest_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/digest_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/dsa">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/dsa" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/ec_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/ec_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/ecdh_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/ecdh_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/ecdsa_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/ecdsa_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/engine">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/engine" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/err">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/err" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/evp">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/evp" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/aes">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/aes" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/bn">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/bn" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/ec">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/ec" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/ecdsa">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/ecdsa" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/md5">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/md5" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/modes">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/modes" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/rand">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/rand" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/sha">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/sha" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/hkdf">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/hkdf" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/hmac_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/hmac_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/hrss">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/hrss" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/lhash">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/lhash" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/obj">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/obj" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pem">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pem" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pkcs7">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pkcs7" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pkcs8">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pkcs8" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/poly1305">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/poly1305" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pool">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/pool" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/rand_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/rand_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/rc4">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/rc4" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/rsa_extra">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/rsa_extra" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/siphash">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/siphash" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/stack">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/stack" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/test">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/test" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/x509">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/x509" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/x509v3">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/crypto/x509v3" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/bio">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/bio" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/blowfish">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/blowfish" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/cast">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/cast" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/cfb">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/cfb" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/des">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/des" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/dh">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/dh" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/dsa">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/dsa" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/evp">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/evp" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/obj">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/obj" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/rc4">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/rc4" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/ripemd">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/ripemd" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/rsa">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/rsa" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/ssl">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/ssl" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/x509">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/x509" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/xts">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/decrepit/xts" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/ssl">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/ssl" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/ssl/test">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/ssl/test" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/fiat">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/fiat" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/googletest/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/googletest/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/sike">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/sike" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/sike/asm">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/third_party/sike/asm" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/boringssl/src/tool">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/boringssl/src/tool" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/compat">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/compat" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavcodec">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavcodec" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavcodec/aarch64">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavcodec/aarch64" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavcodec/neon">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavcodec/neon" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavformat">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavformat" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavutil">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavutil" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavutil/aarch64">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/ffmpeg/libavutil/aarch64" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/cipher">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/cipher" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/hash">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/hash" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/kernel">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/kernel" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/math">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/math" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/replay">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libsrtp/crypto/replay" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libsrtp/srtp">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libsrtp/srtp" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common/arm">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common/arm" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common/arm/neon">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common/arm/neon" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common/generic">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/common/generic" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/decoder">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/decoder" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/encoder">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/encoder" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/encoder/arm/neon">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp8/encoder/arm/neon" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/common">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/common" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/common/arm/neon">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/common/arm/neon" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/decoder">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/decoder" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/encoder">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/encoder" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/encoder/arm/neon">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vp9/encoder/arm/neon" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_dsp">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_dsp" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_dsp/arm">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_dsp/arm" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_mem">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_mem" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_ports">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_ports" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_scale">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_scale" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_scale/generic">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_scale/generic" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_util">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libvpx/source/libvpx/vpx_util" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libyuv/source">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libyuv/source" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/libyuv/util">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/libyuv/util" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/common/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/common/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/encoder/core/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/encoder/core/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/encoder/plus/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/encoder/plus/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/adaptivequantization">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/adaptivequantization" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/backgrounddetection">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/backgrounddetection" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/common">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/common" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/complexityanalysis">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/complexityanalysis" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/denoise">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/denoise" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/downsample">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/downsample" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/imagerotate">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/imagerotate" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/scenechangedetection">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/scenechangedetection" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/scrolldetection">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/scrolldetection" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/vaacalc">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/openh264/src/codec/processing/src/vaacalc" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/opus/src/celt">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/opus/src/celt" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/opus/src/silk">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/opus/src/silk" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/opus/src/silk/fixed">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/opus/src/silk/fixed" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/opus/src/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/opus/src/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/pffft/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/pffft/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/protobuf/src/google/protobuf">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/protobuf/src/google/protobuf" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/protobuf/src/google/protobuf/io">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/protobuf/src/google/protobuf/io" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/protobuf/src/google/protobuf/stubs">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/protobuf/src/google/protobuf/stubs" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/rnnoise/src">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/rnnoise/src" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/usrsctp/usrsctplib/usrsctplib">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/usrsctp/usrsctplib/usrsctplib" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet6">
+      <sourceFolder url="file:///work/av/m77_20190817/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet6" isTestSource="false" />
+    </content>
+    <content url="file:///work/av/m77_20190817/src/video">
+      <sourceFolder url="file:///work/av/m77_20190817/src/video" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
