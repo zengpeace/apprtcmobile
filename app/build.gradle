@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
 
-def useDefaultJavaCode = "true" == rootProject.findProperty("use_default_java_code")
 def compileNativeCode = "true" == rootProject.findProperty("compile_native_code")
 def webrtcRepo = rootProject.property("webrtc_repo")
 
@@ -17,20 +16,10 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         sourceSets.main {
-            if(useDefaultJavaCode) {
-                java.srcDirs = [
-                        "src/main/java",
-                ]
-                jniLibs.srcDir 'libs'
-            } else {
-                java.srcDirs = [
-                        "${webrtcRepo}/examples/androidapp/src"
-                ]
-                //jniLibs.srcDir = '${webrtcRepo}/examples/androidapp/third_party/autobanh/lib'
-                jniLibs.srcDir 'libs'
-                //res.srcDirs "${webrtcRepo}/examples/androidapp/res"
-                //manifest.srcFile "${webrtcRepo}/examples/androidapp/AndroidManifest.xml"
-            }
+            java.srcDirs = [
+                    "src/main/java",
+            ]
+            jniLibs.srcDir 'libs'
         }
 
         ndk {
@@ -38,7 +27,6 @@ android {
                 abiFilters 'arm64-v8a'
             } else {
                 abiFilters 'arm64-v8a', 'armeabi-v7a'
-                //abiFilters 'arm64-v8a'
             }
 
         }

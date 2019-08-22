@@ -1,4 +1,4 @@
-# Install script for directory: /work/av/m77_20190817/src/third_party/boringssl/src/decrepit
+# Install script for directory: /work/av/m77/src/third_party/boringssl/src/decrepit
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

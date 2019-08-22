@@ -32,7 +32,7 @@
     "buildSystemArgumentList": [
       "-DANDROID_TOOLCHAIN\u003dclang",
       "-DANDROID_STL\u003dc++_shared",
-      "-DWEBRTC_REPO\u003d/work/av/m77_20190817/src",
+      "-DWEBRTC_REPO\u003d/work/av/m77/src",
       "-DWEBRTC_BUILD_DIR\u003dout/as"
     ],
     "cFlagList": [],

@@ -135,6 +135,5 @@
     <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar" level="project" />
     <orderEntry type="module" module-name="libwebrtc" />
-    <orderEntry type="module" module-name="libwebrtc" />
   </component>
 </module>

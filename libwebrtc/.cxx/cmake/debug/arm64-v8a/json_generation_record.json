@@ -17,15 +17,147 @@
   },
   {
     "level": "INFO",
-    "message": "- expected json /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder"
-  },
-  {
-    "level": "INFO",
-    "message": "- missing previous command file /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/build_command.txt, will remove stale json folder"
-  },
-  {
-    "level": "INFO",
     "message": "- command changed from previous, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/crypto/fipsmodule/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/ssl/test/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/tool/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/hash/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/ssl/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/container/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/memory/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/libyuv/CM_linux_packages.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/util/fipstools/acvp/modulewrapper/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/crypto/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/CMake/AbseilHelpers.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/meta/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/crypto/test/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/types/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/copts/AbseilConfigureCopts.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/strings/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/sources.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/algorithm/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/libyuv/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/flags/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/numeric/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/debugging/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/base/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/util/fipstools/cavp/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/boringssl/src/decrepit/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/synchronization/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/utility/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/copts/GENERATED_AbseilCopts.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/absl/time/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /work/av/m77_20190817/src/third_party/abseil-cpp/CMake/AbseilInstallDirs.cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a\u0027"
   },
   {
     "level": "INFO",
@@ -33,22 +165,10 @@
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /root/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/root/AndroidStudioProjects/apprtcmobile/libwebrtc\n-B/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/root/AndroidStudioProjects/apprtcmobile/libwebrtc/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/root/Android/Sdk/ndk-bundle\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/root/Android/Sdk/ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003d/root/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dc++_shared\n-DWEBRTC_REPO\u003d/work/av/m77_20190817/src\n-DWEBRTC_BUILD_DIR\u003dout/as\njvmArgs : \n\n"
+    "message": "executing cmake Executable : /root/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/root/AndroidStudioProjects/apprtcmobile/libwebrtc\n-B/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/root/AndroidStudioProjects/apprtcmobile/libwebrtc/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/root/Android/Sdk/ndk-bundle\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/root/Android/Sdk/ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003d/root/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dc++_shared\n-DWEBRTC_REPO\u003d/work/av/m77/src\n-DWEBRTC_BUILD_DIR\u003dout/as\njvmArgs : \n\n"
   },
   {
     "level": "INFO",
-    "message": "done executing cmake"
-  },
-  {
-    "level": "INFO",
-    "message": "write build output /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/build_output.txt"
-  },
-  {
-    "level": "INFO",
-    "message": "write command file /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/build_command.txt"
-  },
-  {
-    "level": "INFO",
-    "message": "JSON generation completed without problems"
+    "message": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Error computing CMake server result.\r\nCheck for working C compiler: /root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\nCheck for working C compiler: /root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\nDetecting C compiler ABI info\nDetecting C compiler ABI info - done\nDetecting C compile features\nDetecting C compile features - done\nCheck for working CXX compiler: /root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\nCheck for working CXX compiler: /root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\nDetecting CXX compiler ABI info\nDetecting CXX compiler ABI info - done\nDetecting CXX compile features\nDetecting CXX compile features - done\nNo CMAKE_CXX_STANDARD set, assuming 11\nLooking for pthread.h\nLooking for pthread.h - found\nLooking for pthread_create\nLooking for pthread_create - found\nFound Threads: TRUE  \nThe ASM compiler identification is Clang\nFound assembler: /root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\nCould NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) \nCMake Warning (dev) at /work/av/m77/src/third_party/libyuv/CMakeLists.txt:45 (if):\n  Policy CMP0064 is not set: Support new TEST if() operator.  Run \"cmake\n  --help-policy CMP0064\" for policy details.  Use the cmake_policy command to\n  set the policy and suppress this warning.\n\n  TEST will be interpreted as an operator when the policy is set to NEW.\n  Since the policy is not set the OLD behavior will be used.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nBuilding ver.: 0.0.1732\nPackaging for: amd-64\nConfiguring done\n"
   }
 ]

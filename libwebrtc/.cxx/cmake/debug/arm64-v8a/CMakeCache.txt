@@ -39,7 +39,7 @@ ANDROID_TOOLCHAIN:UNINITIALIZED=clang
 BoringSSL_BINARY_DIR:STATIC=/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/third_party/boringssl/boringssl
 
 //Value Computed by CMake
-BoringSSL_SOURCE_DIR:STATIC=/work/av/m77_20190817/src/third_party/boringssl/src
+BoringSSL_SOURCE_DIR:STATIC=/work/av/m77/src/third_party/boringssl/src
 
 //No help, variable specified on the command line.
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=arm64-v8a
@@ -328,19 +328,19 @@ TEST:BOOL=OFF
 WEBRTC_BUILD_DIR:UNINITIALIZED=out/as
 
 //No help, variable specified on the command line.
-WEBRTC_REPO:UNINITIALIZED=/work/av/m77_20190817/src
+WEBRTC_REPO:UNINITIALIZED=/work/av/m77/src
 
 //Value Computed by CMake
 YUV_BINARY_DIR:STATIC=/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/third_party/libyuv/libyuv
 
 //Value Computed by CMake
-YUV_SOURCE_DIR:STATIC=/work/av/m77_20190817/src/third_party/libyuv
+YUV_SOURCE_DIR:STATIC=/work/av/m77/src/third_party/libyuv
 
 //Value Computed by CMake
 absl_BINARY_DIR:STATIC=/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a/third_party/abseil-cpp/abseil-cpp
 
 //Value Computed by CMake
-absl_SOURCE_DIR:STATIC=/work/av/m77_20190817/src/third_party/abseil-cpp
+absl_SOURCE_DIR:STATIC=/work/av/m77/src/third_party/abseil-cpp
 
 //Dependencies for the target
 absl_bad_any_cast_impl_LIB_DEPENDS:STATIC=general;absl::base;
@@ -352,7 +352,7 @@ absl_bad_optional_access_LIB_DEPENDS:STATIC=general;absl::base;
 absl_bad_variant_access_LIB_DEPENDS:STATIC=general;absl::base;
 
 //Dependencies for the target
-absl_base_LIB_DEPENDS:STATIC=general;absl::dynamic_annotations;general;absl::spinlock_wait;general;absl::type_traits;
+absl_base_LIB_DEPENDS:STATIC=general;absl::dynamic_annotations;general;absl::log_severity;general;absl::spinlock_wait;general;absl::type_traits;
 
 //Dependencies for target
 absl_city_LIB_DEPENDS:STATIC=
@@ -421,7 +421,40 @@ absl_leak_check_LIB_DEPENDS:STATIC=
 absl_leak_check_disable_LIB_DEPENDS:STATIC=
 
 //Dependencies for the target
+absl_log_severity_LIB_DEPENDS:STATIC=general;absl::core_headers;
+
+//Dependencies for the target
 absl_malloc_internal_LIB_DEPENDS:STATIC=general;absl::base;general;absl::dynamic_annotations;general;absl::spinlock_wait;
+
+//Dependencies for the target
+absl_random_distributions_LIB_DEPENDS:STATIC=general;absl::random_internal_distribution_impl;general;absl::random_internal_distributions;general;absl::random_internal_fast_uniform_bits;general;absl::random_internal_fastmath;general;absl::random_internal_iostream_state_saver;general;absl::random_internal_traits;general;absl::random_internal_uniform_helper;general;absl::strings;general;absl::span;
+
+//Dependencies for the target
+absl_random_internal_distribution_test_util_LIB_DEPENDS:STATIC=general;absl::base;general;absl::strings;general;absl::str_format;general;absl::span;
+
+//Dependencies for the target
+absl_random_internal_pool_urbg_LIB_DEPENDS:STATIC=general;absl::base;general;absl::random_internal_randen;general;absl::random_internal_seed_material;general;absl::random_seed_gen_exception;general;absl::span;
+
+//Dependencies for the target
+absl_random_internal_randen_LIB_DEPENDS:STATIC=general;absl::base;general;absl::random_internal_randen_hwaes;general;absl::random_internal_randen_slow;
+
+//Dependencies for the target
+absl_random_internal_randen_hwaes_LIB_DEPENDS:STATIC=general;absl::random_internal_randen_hwaes_impl;
+
+//Dependencies for target
+absl_random_internal_randen_hwaes_impl_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+absl_random_internal_randen_slow_LIB_DEPENDS:STATIC=
+
+//Dependencies for the target
+absl_random_internal_seed_material_LIB_DEPENDS:STATIC=general;absl::base;general;absl::optional;general;absl::span;general;absl::strings;
+
+//Dependencies for target
+absl_random_seed_gen_exception_LIB_DEPENDS:STATIC=
+
+//Dependencies for the target
+absl_random_seed_sequences_LIB_DEPENDS:STATIC=general;absl::random_internal_nonsecure_base;general;absl::random_internal_pool_urbg;general;absl::random_internal_salted_seed_seq;general;absl::random_internal_seed_material;general;absl::random_seed_gen_exception;general;absl::span;
 
 //Dependencies for the target
 absl_raw_hash_set_LIB_DEPENDS:STATIC=general;absl::layout;general;absl::memory;general;absl::meta;general;absl::optional;general;absl::utility;general;absl::hashtablez_sampler;
@@ -659,7 +692,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=42
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=43
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
