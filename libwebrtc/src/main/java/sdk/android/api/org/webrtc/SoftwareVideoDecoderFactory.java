@@ -53,7 +53,7 @@ public class SoftwareVideoDecoderFactory implements VideoDecoderFactory {
     }
 	if (H264Decoder.nativeIsSupported()) {
       codecs.add(new VideoCodecInfo("H264", new HashMap<>()));
-    }
+	}
 
     return codecs.toArray(new VideoCodecInfo[codecs.size()]);
   }

@@ -209,7 +209,7 @@ task genWebrtcSrc(type:Exec) {
     }
     commandLine cmd
 
-    println "gradleVersion = $gradle.gradleVersion"
+    //println "gradleVersion = $gradle.gradleVersion"
 
 }
 

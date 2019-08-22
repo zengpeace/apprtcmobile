@@ -1,5 +1,5 @@
 package org.webrtc;
-  
+
 public class H264Encoder extends WrappedNativeVideoEncoder {
   @Override
   public long createNativeVideoEncoder() {
