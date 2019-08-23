@@ -1,0 +1,14 @@
+Executable : /root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/debug/arm64-v8a
+bssl
+bssl_shim
+crypto_test
+decrepit_test
+jingle_peerconnection_so
+ssl_test
+yuv_shared
+yuvconvert
+jvmArgs : 
+

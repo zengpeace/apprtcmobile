@@ -1,0 +1,50 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository."
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027/root/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/release/arm64-v8a/android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /root/AndroidStudioProjects/apprtcmobile/libwebrtc/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/release/arm64-v8a\u0027 but regenerating project"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /root/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/root/AndroidStudioProjects/apprtcmobile/libwebrtc\n-B/root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/release/arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/root/AndroidStudioProjects/apprtcmobile/libwebrtc/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DANDROID_NDK\u003d/root/Android/Sdk/ndk-bundle\n-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/root/Android/Sdk/ndk-bundle\n-DCMAKE_TOOLCHAIN_FILE\u003d/root/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/root/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_STL\u003dc++_shared\n-DWEBRTC_REPO\u003d/work/av/m77/src\n-DWEBRTC_BUILD_DIR\u003dout/as\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing cmake"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/release/arm64-v8a/build_output.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /root/AndroidStudioProjects/apprtcmobile/libwebrtc/.cxx/cmake/release/arm64-v8a/build_command.txt"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems"
+  }
+]

@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 
 def compileNativeCode = "true" == rootProject.findProperty("compile_native_code")
-def webrtcRepo = rootProject.property("webrtc_repo")
 
 
 android {
@@ -26,7 +25,7 @@ android {
             if(compileNativeCode) {
                 abiFilters 'arm64-v8a'
             } else {
-                abiFilters 'arm64-v8a', 'armeabi-v7a'
+                abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64', 'x86'
             }
 
         }

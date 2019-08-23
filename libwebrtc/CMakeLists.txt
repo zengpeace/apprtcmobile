@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 
-#if (${ANDROID_ABI} STREQUAL "armeabi-v7a")
-#	set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -mfloat-abi=softfp")
-#endif()
-
 set(CWD ${CMAKE_CURRENT_LIST_DIR})
 
 set(TEST_CC_FILTER ".*gunit.cc|.*/mock/.*|.*mock_.*|.*/mocks/.*|.*fake.*|.*/test/.*|.*/tests/.*|.*_test_.*|.*unittest.*|.*/end_to_end_tests/.*|.*_test.cc|.*_tests.cc|.*_integrationtest.cc|.*_perftest.cc|.*test_utils.cc|.*testutils.cc|.*testclient.cc|.*test.c")
@@ -113,12 +109,11 @@ file(GLOB_RECURSE src_logging
     ${WEBRTC_REPO}/logging/rtc_event_log/rtc_event_log_factory.cc
     ${WEBRTC_REPO}/logging/rtc_event_log/rtc_event_log_impl.cc
     ${WEBRTC_REPO}/logging/rtc_event_log/rtc_stream_config.cc
-    #${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/rtc_event_log/rtc_event_log.pb.cc
-    #${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/rtc_event_log/rtc_event_log2.pb.cc
+	${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/*.cc
 )
 list(FILTER src_logging EXCLUDE REGEX ${TEST_CC_FILTER})
-list(APPEND src_logging ${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/rtc_event_log/rtc_event_log.pb.cc)
-list(APPEND src_logging ${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/rtc_event_log/rtc_event_log2.pb.cc)
+#list(APPEND src_logging ${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/rtc_event_log/rtc_event_log.pb.cc)
+#list(APPEND src_logging ${WEBRTC_REPO}/${WEBRTC_BUILD_DIR}/gen/logging/rtc_event_log/rtc_event_log2.pb.cc)
 
 
 file(GLOB_RECURSE src_media
