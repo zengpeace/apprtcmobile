@@ -12,7 +12,7 @@ package org.appspot.apprtc;
 
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import org.appspot.apprtc.RoomParametersFetcher.RoomParametersFetcherEvents;
 import org.appspot.apprtc.WebSocketChannelClient.WebSocketChannelEvents;

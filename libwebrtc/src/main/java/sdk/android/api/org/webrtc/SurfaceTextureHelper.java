@@ -18,7 +18,7 @@ import android.opengl.GLES20;
 import android.os.Build;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import java.nio.ByteBuffer;
 import java.util.concurrent.Callable;
 import org.webrtc.EglBase;

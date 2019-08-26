@@ -16,7 +16,7 @@ import android.media.audiofx.AudioEffect.Descriptor;
 import android.media.audiofx.AutomaticGainControl;
 import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import java.util.List;
 import java.util.UUID;
 import org.webrtc.Logging;
