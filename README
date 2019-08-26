@@ -1,7 +1,5 @@
 M77
 date:2019.08.22
-
-native debug only support arm64-v8a
  
 ps：
 // in order to doing test, disabling the audio, if you want to enable it,
