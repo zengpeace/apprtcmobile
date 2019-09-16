@@ -32,5 +32,5 @@ ext {
     targetSdkVersion = 29
 
     releaseVersionCode = 3
-    releaseVersionName = '3.0.0'
+    releaseVersionName = '3.0.m78.20190916'
 }

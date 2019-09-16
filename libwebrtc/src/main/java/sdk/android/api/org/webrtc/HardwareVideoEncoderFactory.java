@@ -227,8 +227,8 @@ public class HardwareVideoEncoderFactory implements VideoEncoderFactory {
 
   private boolean isHardwareSupportedInCurrentSdkH264(MediaCodecInfo info) {
     return true;
-	/*// First, H264 hardware might perform poorly on this model.
-    if (H264_HW_EXCEPTION_MODELS.contains(Build.MODEL)) {
+	// First, H264 hardware might perform poorly on this model.
+    /*if (H264_HW_EXCEPTION_MODELS.contains(Build.MODEL)) {
       return false;
     }
     String name = info.getName();
@@ -237,8 +237,7 @@ public class HardwareVideoEncoderFactory implements VideoEncoderFactory {
         // Exynos H264 encoder is supported in LOLLIPOP or later.
         || (name.startsWith(EXYNOS_PREFIX)
                && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP);
-  	*/
-	}
+  */}
 
   private boolean isMediaCodecAllowed(MediaCodecInfo info) {
     if (codecAllowedPredicate == null) {
